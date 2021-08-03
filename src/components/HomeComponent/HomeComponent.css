@@ -1,0 +1,76 @@
+.contHome{
+    height:100vh;
+    width:100vw;
+    background:inherit;
+}
+
+.rowHome{
+    display: flex;
+    height:50vh;
+}
+
+.colHome{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+}
+
+.colHomeSonic{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.colHomeMario{
+    height:100%;
+    width:50%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    padding-left: 50px;
+}
+
+.imgCharacterMario{
+    padding-top: 50px;
+    width:250px;
+}
+
+.imgCharacterPacman{
+    padding-top: 50px;
+    width:350px;
+}
+
+.imgCharacterSonic{
+    padding-top: 50px;
+    width:350px;
+}
+
+.imgCharacterCharsh{
+    padding-top: 50px;
+    width:450px;
+}
+
+.textCharacter{
+    font-family:'Pixelmania';
+    color: #06ed59;
+    font-size: 100px;
+    display: flex;
+
+}
+
+.textCharacterCrash{
+    font-family:'Pixelmania';
+    color: #06ed59;
+    font-size: 100px;
+    display: flex;
+}
+
+.btnCharacter{
+    background-color: transparent;
+    border-color: transparent;
+}
