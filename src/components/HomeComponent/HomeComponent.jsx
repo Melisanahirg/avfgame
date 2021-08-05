@@ -58,8 +58,13 @@ export function HomeComponent() {
 
     return (
         <Container className='contHome'>
+            <Row>
+                <Col>
+                    <h3 className='title'>RANKING</h3>
+                </Col>
+            </Row>
             <Row className='rowHome'>
-                <Col lg={6} className='colHomeMario'>
+                <Col md={6} className='colHomeMario'>
                     <Button onClick={sumarMario} className='btnCharacter'>
                         <Image className='imgCharacterMario' src="../../img/mariobros.png" alt="" />
                     </Button>
@@ -67,7 +72,7 @@ export function HomeComponent() {
                         <h3 className='textCharacter'>{countMario}</h3>
                     </Button>
                 </Col>
-                <Col lg={6} className='colHome'>
+                <Col md={6} className='colHome'>
                     <Button onClick={sumarPacman} className='btnCharacter'>
                         <Image className='imgCharacterPacman' src="../../img/pacman.png" alt="" />
                     </Button>
@@ -77,7 +82,7 @@ export function HomeComponent() {
                 </Col>
             </Row>
             <Row className='rowHome'>
-                <Col lg={6} className='colHomeSonic'>
+                <Col md={6} className='colHomeSonic'>
                     <Button onClick={sumarSonic} className='btnCharacter'>
                         <Image className='imgCharacterSonic' src="../../img/sonic.png" alt="" />
                     </Button>
@@ -85,7 +90,7 @@ export function HomeComponent() {
                         <h3 className='textCharacter'>{countSonic}</h3>
                     </Button>
                 </Col>
-                <Col lg={6} className='colHome'>
+                <Col md={6} className='colHome'>
                     <Button onClick={sumarCrash} className='btnCharacter'>
                         <Image className='imgCharacterCharsh' src="../../img/crash.png" alt="" />
                     </Button>
